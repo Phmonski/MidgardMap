@@ -38,6 +38,4 @@ python3 travel_gui.py --graph graph.json
 - Each day, pick mode + hours and click “Travel Day” to update distance covered/remaining and the log.
 
 ## Notes
-- Travel speeds are in km/h (configurable in `travel_gui.py` via `SPEEDS_KMH`).
-- Difficulty factors per route type are in `ROUTE_DIFFICULTY` (travel GUI) and can be overridden per edge using `difficulty_factor` in the JSON.
-- All scripts rely on the shared graph format emitted by `createGraph.py` / `graph_editor.py`.
+- New Feature request: sail-along-the-shore for safer sea travel.
