@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "Berensford",
+      "is_port": false
+    },
+    {
+      "id": "Corrinis",
+      "is_port": true
+    },
+    {
+      "id": "Deosted",
+      "is_port": true
+    },
+    {
+      "id": "Elrodstor",
+      "is_port": true
+    },
+    {
+      "id": "Fijorinde",
+      "is_port": true
+    },
+    {
+      "id": "Moranmoir",
+      "is_port": false
+    },
+    {
+      "id": "Prioresse",
+      "is_port": true
+    }
+  ],
+  "edges": [
+    {
+      "nodes": [
+        "Deosted",
+        "Prioresse"
+      ],
+      "undirected": true,
+      "route_type": "trail",
+      "approx_distance_km": 100.0,
+      "allowed_modes": [],
+      "route_types": [
+        "trail"
+      ]
+    },
+    {
+      "nodes": [
+        "Elrodstor",
+        "Prioresse"
+      ],
+      "undirected": true,
+      "route_types": [
+        "road",
+        "shore"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse",
+        "boat",
+        "ship"
+      ],
+      "approx_distance_km": 100.0
+    },
+    {
+      "nodes": [
+        "Moranmoir",
+        "Prioresse"
+      ],
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "approx_distance_km": 100.0,
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
+    },
+    {
+      "nodes": [
+        "Corrinis",
+        "Fijorinde"
+      ],
+      "undirected": true,
+      "route_type": "shore",
+      "approx_distance_km": 20.0,
+      "allowed_modes": [],
+      "route_types": [
+        "shore"
+      ]
+    },
+    {
+      "nodes": [
+        "Berensford",
+        "Moranmoir"
+      ],
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "approx_distance_km": 400.0,
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
+    },
+    {
+      "nodes": [
+        "Berensford",
+        "Fijorinde"
+      ],
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "approx_distance_km": 400.0,
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
+    }
+  ]
+}
