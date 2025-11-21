@@ -29,15 +29,10 @@ from typing import Any, Dict, List, Tuple
 
 
 SPEEDS_KMH: Dict[str, float] = {
-    "foot": 4.5,
-    "horse": 7.0,
-    "wagon": 5.0,
-    "pack_lizard": 6.0,
-    "barge": 6.0,
-    "river_boat": 9.0,
-    "row": 5.5,
-    "sail": 12.0,
-    "knarr": 10.0,
+    "foot": 20,
+    "horse": 40,
+    "ship": 60.0,
+    "boat": 40.0,
 }
 DEFAULT_ALLOWED_MODES = list(SPEEDS_KMH.keys())
 ROUTE_DIFFICULTY: Dict[str, float] = {
@@ -79,7 +74,7 @@ def prepare_graph(data: Dict[str, Any]) -> Tuple[Dict[str, Dict[str, Any]], Dict
 
 
 def speed_for_mode(mode: str) -> float:
-    return SPEEDS_KMH.get(mode, 4.5)
+    return SPEEDS_KMH.get(mode, 20)
 
 
 def difficulty_for_edge(attrs: Dict[str, Any]) -> float:
@@ -218,7 +213,7 @@ class TravelSession:
         self.day += 1
         speed = speed_for_mode(mode)
         difficulty = difficulty_for_edge(self.active_leg.attrs)
-        potential_km = speed * hours * difficulty
+        potential_km = speed/10*3.6 * hours * difficulty
         remaining = self.active_leg.remaining_km
         traveled = min(potential_km, remaining)
         self.active_leg.traveled_km += traveled
@@ -227,7 +222,7 @@ class TravelSession:
         reached_destination = math.isclose(self.active_leg.traveled_km, self.active_leg.distance_km) or self.active_leg.traveled_km >= self.active_leg.distance_km
 
         day_entry = (
-            f"Day {self.day}: {mode} for {hours:.1f}h at {speed:.1f} km/h "
+            f"Day {self.day}: {mode} for {hours:.1f}h at B{speed}/{speed/10*3.6:.1f} km/h "
             f"(difficulty {difficulty:.2f}); covered {traveled:.1f} km"
         )
         self.log.append(day_entry)
@@ -444,9 +439,9 @@ class TravelApp(tk.Tk):
             hours = 0.0
         speed = speed_for_mode(self.mode_var.get())
         difficulty = difficulty_for_edge(leg.attrs)
-        projected = speed * hours * difficulty
+        projected = speed/10*3.6 * hours * difficulty
         text = (
-            f"Projection: {hours:.1f}h at {speed:.1f} km/h "
+            f"Projection: {hours:.1f}h at B{speed}/{speed/10*3.6:.1f} km/h "
             f"x difficulty {difficulty:.2f} → ~{projected:.1f} km"
         )
         self.projection_label.config(text=text)
@@ -467,7 +462,7 @@ class TravelApp(tk.Tk):
                 mode = self.mode_var.get()
                 speed = speed_for_mode(mode)
                 total_dist = remaining_leg_km + path_dist
-                est_hours = total_dist / speed if speed > 0 else 0
+                est_hours = total_dist / (speed/10*3.6) if speed > 0 else 0
                 remaining_leg_text = ""
                 if active_leg:
                     remaining_leg_text = (
@@ -481,7 +476,7 @@ class TravelApp(tk.Tk):
                     f"Shortest path from {start_node} to {dest}:\n"
                     f"{path_line}\n"
                     f"Total distance (including current leg): {total_dist:.1f} km\n"
-                    f"Est. travel time at {mode} ({speed:.1f} km/h): {est_hours:.1f} hours"
+                    f"Est. travel time at {mode} ({speed/10*3.6:.1f} km/h): {est_hours:.1f} hours"
                 )
         self.plan_box.config(state="normal")
         self.plan_box.delete("1.0", tk.END)
@@ -494,8 +489,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--graph",
         type=Path,
-        default=Path("graph.json"),
-        help="Path to the graph JSON produced by createGraph.py (default: graph.json).",
+        default=Path("midgard.json"),
+        help="Path to the graph JSON produced by createGraph.py (default: midgard.json).",
     )
     return parser.parse_args()
 
