@@ -7,6 +7,7 @@ Utilities to build, edit, visualize, and interact with a Midgard travel graph.
 - `graph_editor.py` — GUI editor for nodes/edges (ports, route types, distances, allowed modes). Load/save JSON.
 - `visualize_graph.py` — renders a PNG of the graph. Requires `pip install matplotlib networkx`.
 - `travel_gui.py` — interactive travel day tracker with shortest-path roadmap and time estimates.
+- `map_graph_builder.py` — click on a map image to place nodes and connect edges; distances are computed from pixel distance times a scale you set.
 
 ## Quick start
 1) Generate the sample graph (or extend an existing one):
@@ -36,6 +37,18 @@ python3 travel_gui.py --graph graph.json
 - The “Route plan” pane shows the shortest path and estimated time (based on current mode).
 - In a city, choose a route and click “Start Selected Route”.
 - Each day, pick mode + hours and click “Travel Day” to update distance covered/remaining and the log.
+
+5) Build a graph by clicking on a map image:
+```
+python3 map_graph_builder.py --image Alba.jpg --scale 0.5 --graph graph.json
+```
+- Click “Add nodes” mode to place cities/landmarks.
+- Switch to “Connect nodes” and click two nodes to add an edge; distance is pixel_distance * scale.
+- Update the scale (units per pixel) and hit “Recalc Distances” to refresh edge lengths; save to JSON.
+
+## Scalefactors for Maps
+
+- Alba: 1.038
 
 ## Notes
 - New Feature request: sail-along-the-shore for safer sea travel.

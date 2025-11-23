@@ -1,7 +1,27 @@
 {
   "nodes": [
     {
+      "id": "Adhelstan",
+      "is_port": false
+    },
+    {
+      "id": "Airithir",
+      "is_port": true
+    },
+    {
+      "id": "Beornanburgh",
+      "is_port": false
+    },
+    {
       "id": "Berensford",
+      "is_port": false
+    },
+    {
+      "id": "Byrne",
+      "is_port": true
+    },
+    {
+      "id": "Cambyrg",
       "is_port": false
     },
     {
@@ -9,15 +29,63 @@
       "is_port": true
     },
     {
-      "id": "Deosted",
+      "id": "Crossing",
+      "is_port": false
+    },
+    {
+      "id": "Deorstead",
       "is_port": true
+    },
+    {
+      "id": "Dungarvan",
+      "is_port": false
+    },
+    {
+      "id": "Dvarnaut",
+      "is_port": false
     },
     {
       "id": "Elrodstor",
       "is_port": true
     },
     {
-      "id": "Fijorinde",
+      "id": "Estragel",
+      "is_port": true
+    },
+    {
+      "id": "Fiorinde",
+      "is_port": true
+    },
+    {
+      "id": "Glenachtor",
+      "is_port": false
+    },
+    {
+      "id": "Haelgarde",
+      "is_port": true
+    },
+    {
+      "id": "Halfdal",
+      "is_port": false
+    },
+    {
+      "id": "Harkfast",
+      "is_port": false
+    },
+    {
+      "id": "Horwardstor",
+      "is_port": false
+    },
+    {
+      "id": "Ikonium",
+      "is_port": true
+    },
+    {
+      "id": "Irenhart",
+      "is_port": false
+    },
+    {
+      "id": "Kynopyloe",
       "is_port": true
     },
     {
@@ -25,24 +93,39 @@
       "is_port": false
     },
     {
+      "id": "Moris",
+      "is_port": false
+    },
+    {
       "id": "Prioresse",
       "is_port": true
+    },
+    {
+      "id": "Tanast",
+      "is_port": false
+    },
+    {
+      "id": "Tidford",
+      "is_port": true
+    },
+    {
+      "id": "Turonsborgh",
+      "is_port": false
+    },
+    {
+      "id": "Twineward",
+      "is_port": false
+    },
+    {
+      "id": "Vanasfarne",
+      "is_port": true
+    },
+    {
+      "id": "Wulfstead",
+      "is_port": false
     }
   ],
   "edges": [
-    {
-      "nodes": [
-        "Deosted",
-        "Prioresse"
-      ],
-      "undirected": true,
-      "route_type": "trail",
-      "approx_distance_km": 100.0,
-      "allowed_modes": [],
-      "route_types": [
-        "trail"
-      ]
-    },
     {
       "nodes": [
         "Elrodstor",
@@ -80,37 +163,8 @@
     },
     {
       "nodes": [
-        "Corrinis",
-        "Fijorinde"
-      ],
-      "undirected": true,
-      "route_type": "shore",
-      "approx_distance_km": 20.0,
-      "allowed_modes": [],
-      "route_types": [
-        "shore"
-      ]
-    },
-    {
-      "nodes": [
         "Berensford",
         "Moranmoir"
-      ],
-      "undirected": true,
-      "route_types": [
-        "road"
-      ],
-      "route_type": "road",
-      "approx_distance_km": 400.0,
-      "allowed_modes": [
-        "foot",
-        "horse"
-      ]
-    },
-    {
-      "nodes": [
-        "Berensford",
-        "Fijorinde"
       ],
       "undirected": true,
       "route_types": [

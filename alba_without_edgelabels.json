@@ -1,0 +1,992 @@
+{
+  "nodes": [
+    {
+      "id": "Deorstead",
+      "pos_px": [
+        909.0,
+        404.0
+      ]
+    },
+    {
+      "id": "Crossing",
+      "pos_px": [
+        876.0,
+        563.0
+      ]
+    },
+    {
+      "id": "0",
+      "pos_px": [
+        261.0,
+        1146.0
+      ]
+    },
+    {
+      "id": "300",
+      "pos_px": [
+        550.0,
+        1146.0
+      ]
+    },
+    {
+      "id": "Twineward",
+      "pos_px": [
+        602.0,
+        440.0
+      ]
+    },
+    {
+      "id": "Irenhart",
+      "pos_px": [
+        769.0,
+        436.0
+      ]
+    },
+    {
+      "id": "Haelgarde",
+      "pos_px": [
+        1165.0,
+        546.0
+      ]
+    },
+    {
+      "id": "Deorstead+Haelgarde",
+      "pos_px": [
+        1080.0,
+        516.0
+      ]
+    },
+    {
+      "id": "Byrne+Crossing",
+      "pos_px": [
+        1009.0,
+        611.0
+      ]
+    },
+    {
+      "id": "Byrne",
+      "pos_px": [
+        1305.0,
+        674.0
+      ]
+    },
+    {
+      "id": "Glenachtor",
+      "pos_px": [
+        834.0,
+        695.0
+      ]
+    },
+    {
+      "id": "Adhelstan",
+      "pos_px": [
+        694.0,
+        731.0
+      ]
+    },
+    {
+      "id": "Prioresse",
+      "pos_px": [
+        1319.0,
+        912.0
+      ]
+    },
+    {
+      "id": "Elrodstor",
+      "pos_px": [
+        1308.0,
+        952.0
+      ]
+    },
+    {
+      "id": "Cambyrg",
+      "pos_px": [
+        1002.0,
+        904.0
+      ]
+    },
+    {
+      "id": "Thame",
+      "pos_px": [
+        392.0,
+        594.0
+      ]
+    },
+    {
+      "id": "Dungarvan",
+      "pos_px": [
+        445.0,
+        718.0
+      ]
+    },
+    {
+      "id": "Wulfstead",
+      "pos_px": [
+        445.0,
+        790.0
+      ]
+    },
+    {
+      "id": "Tidford",
+      "pos_px": [
+        587.0,
+        865.0
+      ]
+    },
+    {
+      "id": "Corrinis",
+      "pos_px": [
+        700.0,
+        960.0
+      ]
+    },
+    {
+      "id": "Fiorinde",
+      "pos_px": [
+        759.0,
+        984.0
+      ]
+    },
+    {
+      "id": "Beornanburgh",
+      "pos_px": [
+        1015.0,
+        944.0
+      ]
+    },
+    {
+      "id": "Maris",
+      "pos_px": [
+        1025.0,
+        1023.0
+      ]
+    },
+    {
+      "id": "Norwardstor",
+      "pos_px": [
+        615.0,
+        370.0
+      ]
+    },
+    {
+      "id": "Moranmuir",
+      "pos_px": [
+        919.0,
+        620.0
+      ]
+    },
+    {
+      "id": "Harkfast",
+      "pos_px": [
+        1105.0,
+        844.0
+      ]
+    },
+    {
+      "id": "Nibrost",
+      "pos_px": [
+        273.0,
+        616.0
+      ]
+    },
+    {
+      "id": "Airthir",
+      "pos_px": [
+        515.0,
+        840.0
+      ]
+    },
+    {
+      "id": "Gimil-Dom",
+      "pos_px": [
+        358.0,
+        630.0
+      ]
+    },
+    {
+      "id": "Azagrim",
+      "pos_px": [
+        381.0,
+        694.0
+      ]
+    },
+    {
+      "id": "Turonsburgh",
+      "pos_px": [
+        547.0,
+        468.0
+      ]
+    },
+    {
+      "id": "Vanasfarne",
+      "pos_px": [
+        1185.0,
+        591.0
+      ]
+    },
+    {
+      "id": "Ealalinn",
+      "pos_px": [
+        224.0,
+        970.0
+      ]
+    },
+    {
+      "id": "Scarpa",
+      "pos_px": [
+        1479.0,
+        708.0
+      ]
+    },
+    {
+      "id": "Reginsvid",
+      "pos_px": [
+        307.0,
+        716.0
+      ]
+    },
+    {
+      "id": "Indairn\u00e9",
+      "pos_px": [
+        110.0,
+        761.0
+      ]
+    },
+    {
+      "id": "Ikonium",
+      "pos_px": [
+        1308.0,
+        1178.0
+      ]
+    },
+    {
+      "id": "Kynopytae",
+      "pos_px": [
+        1158.0,
+        1175.0
+      ]
+    },
+    {
+      "id": "Estragel",
+      "pos_px": [
+        1150.0,
+        1125.0
+      ]
+    },
+    {
+      "id": "Te\u00e1mhair",
+      "pos_px": [
+        140.0,
+        1093.0
+      ]
+    },
+    {
+      "id": "Celeduin",
+      "pos_px": [
+        949.0,
+        1121.0
+      ]
+    },
+    {
+      "id": "Aglarintur",
+      "pos_px": [
+        959.0,
+        1060.0
+      ]
+    },
+    {
+      "id": "Tirthalion",
+      "pos_px": [
+        859.0,
+        1056.0
+      ]
+    },
+    {
+      "id": "Dvarnaur",
+      "pos_px": [
+        352.0,
+        276.0
+      ]
+    },
+    {
+      "id": "Tanast",
+      "pos_px": [
+        639.0,
+        271.0
+      ]
+    },
+    {
+      "id": "Crossing+Deorstead",
+      "pos_px": [
+        906.0,
+        464.0
+      ]
+    },
+    {
+      "id": "Thame+Turonsburgh",
+      "pos_px": [
+        437.0,
+        505.0
+      ]
+    },
+    {
+      "id": "Indaim\u00e9+Wulfstead",
+      "pos_px": [
+        372.0,
+        816.0
+      ]
+    },
+    {
+      "id": "Airthir+Ealalinn",
+      "pos_px": [
+        405.0,
+        888.0
+      ]
+    },
+    {
+      "id": "Corran",
+      "pos_px": [
+        366.0,
+        964.0
+      ]
+    },
+    {
+      "id": "Loch Gorm",
+      "pos_px": [
+        722.0,
+        526.0
+      ]
+    },
+    {
+      "id": "Cambyrg+Crossing",
+      "pos_px": [
+        994.0,
+        871.0
+      ]
+    },
+    {
+      "id": "Wald von Escavalon",
+      "pos_px": [
+        987.0,
+        752.0
+      ]
+    },
+    {
+      "id": "Harkfast+Prioresse",
+      "pos_px": [
+        1110.0,
+        880.0
+      ]
+    },
+    {
+      "id": "Bucht-Ikonium",
+      "pos_px": [
+        1294.0,
+        1122.0
+      ]
+    },
+    {
+      "id": "Dvarnaut+Tanast",
+      "pos_px": [
+        573.0,
+        276.0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "nodes": [
+        "0",
+        "300"
+      ],
+      "pixel_distance": 289.0,
+      "approx_distance_km": 299.98,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Gimil-Dom",
+        "Thame"
+      ],
+      "pixel_distance": 49.52,
+      "approx_distance_km": 51.4,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Turonsburgh",
+        "Twineward"
+      ],
+      "pixel_distance": 61.72,
+      "approx_distance_km": 64.06,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Norwardstor",
+        "Twineward"
+      ],
+      "pixel_distance": 71.2,
+      "approx_distance_km": 73.9,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Thame",
+        "Thame+Turonsburgh"
+      ],
+      "pixel_distance": 99.73,
+      "approx_distance_km": 103.52,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Thame+Turonsburgh",
+        "Turonsburgh"
+      ],
+      "pixel_distance": 116.06,
+      "approx_distance_km": 120.47,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Dungarvan",
+        "Thame"
+      ],
+      "pixel_distance": 134.85,
+      "approx_distance_km": 139.98,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Azagrim",
+        "Gimil-Dom"
+      ],
+      "pixel_distance": 68.01,
+      "approx_distance_km": 70.59,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Azagrim",
+        "Dungarvan"
+      ],
+      "pixel_distance": 68.35,
+      "approx_distance_km": 70.95,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Azagrim",
+        "Reginsvid"
+      ],
+      "pixel_distance": 77.2,
+      "approx_distance_km": 80.13,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Gimil-Dom",
+        "Nibrost"
+      ],
+      "pixel_distance": 86.15,
+      "approx_distance_km": 89.42,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Dungarvan",
+        "Wulfstead"
+      ],
+      "pixel_distance": 72.0,
+      "approx_distance_km": 74.74,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Indaim\u00e9+Wulfstead",
+        "Wulfstead"
+      ],
+      "pixel_distance": 77.49,
+      "approx_distance_km": 80.44,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Indaim\u00e9+Wulfstead",
+        "Indairn\u00e9"
+      ],
+      "pixel_distance": 267.71,
+      "approx_distance_km": 277.88,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Airthir+Ealalinn",
+        "Indaim\u00e9+Wulfstead"
+      ],
+      "pixel_distance": 79.2,
+      "approx_distance_km": 82.21,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Airthir",
+        "Airthir+Ealalinn"
+      ],
+      "pixel_distance": 120.02,
+      "approx_distance_km": 124.58,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Airthir+Ealalinn",
+        "Corran"
+      ],
+      "pixel_distance": 85.42,
+      "approx_distance_km": 88.67,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Corran",
+        "Ealalinn"
+      ],
+      "pixel_distance": 142.13,
+      "approx_distance_km": 147.53,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Ealalinn",
+        "Te\u00e1mhair"
+      ],
+      "pixel_distance": 148.95,
+      "approx_distance_km": 154.61,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Tidford",
+        "Wulfstead"
+      ],
+      "pixel_distance": 160.59,
+      "approx_distance_km": 166.69,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Corrinis",
+        "Tidford"
+      ],
+      "pixel_distance": 147.63,
+      "approx_distance_km": 153.24,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Adhelstan",
+        "Tidford"
+      ],
+      "pixel_distance": 171.48,
+      "approx_distance_km": 178.0,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Adhelstan",
+        "Twineward"
+      ],
+      "pixel_distance": 305.2,
+      "approx_distance_km": 316.79,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Adhelstan",
+        "Glenachtor"
+      ],
+      "pixel_distance": 144.55,
+      "approx_distance_km": 150.05,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Crossing",
+        "Glenachtor"
+      ],
+      "pixel_distance": 138.52,
+      "approx_distance_km": 143.78,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Loch Gorm",
+        "Twineward"
+      ],
+      "pixel_distance": 147.63,
+      "approx_distance_km": 153.24,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Crossing",
+        "Loch Gorm"
+      ],
+      "pixel_distance": 158.38,
+      "approx_distance_km": 164.4,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Crossing",
+        "Crossing+Deorstead"
+      ],
+      "pixel_distance": 103.45,
+      "approx_distance_km": 107.38,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Crossing+Deorstead",
+        "Deorstead"
+      ],
+      "pixel_distance": 60.07,
+      "approx_distance_km": 62.36,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Crossing+Deorstead",
+        "Deorstead+Haelgarde"
+      ],
+      "pixel_distance": 181.6,
+      "approx_distance_km": 188.5,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Deorstead+Haelgarde",
+        "Haelgarde"
+      ],
+      "pixel_distance": 90.14,
+      "approx_distance_km": 93.56,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Haelgarde",
+        "Vanasfarne"
+      ],
+      "pixel_distance": 49.24,
+      "approx_distance_km": 51.12,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Byrne+Crossing",
+        "Deorstead+Haelgarde"
+      ],
+      "pixel_distance": 118.6,
+      "approx_distance_km": 123.11,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Byrne+Crossing",
+        "Crossing"
+      ],
+      "pixel_distance": 141.4,
+      "approx_distance_km": 146.77,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Crossing",
+        "Moranmuir"
+      ],
+      "pixel_distance": 71.4,
+      "approx_distance_km": 74.11,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Moranmuir",
+        "Wald von Escavalon"
+      ],
+      "pixel_distance": 148.49,
+      "approx_distance_km": 154.13,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Cambyrg+Crossing",
+        "Wald von Escavalon"
+      ],
+      "pixel_distance": 119.21,
+      "approx_distance_km": 123.74,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Cambyrg",
+        "Cambyrg+Crossing"
+      ],
+      "pixel_distance": 33.96,
+      "approx_distance_km": 35.25,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Beornanburgh",
+        "Cambyrg"
+      ],
+      "pixel_distance": 42.06,
+      "approx_distance_km": 43.66,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Beornanburgh",
+        "Maris"
+      ],
+      "pixel_distance": 79.63,
+      "approx_distance_km": 82.66,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Estragel",
+        "Maris"
+      ],
+      "pixel_distance": 161.34,
+      "approx_distance_km": 167.47,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Aglarintur",
+        "Maris"
+      ],
+      "pixel_distance": 75.66,
+      "approx_distance_km": 78.54,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Aglarintur",
+        "Celeduin"
+      ],
+      "pixel_distance": 61.81,
+      "approx_distance_km": 64.16,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Aglarintur",
+        "Tirthalion"
+      ],
+      "pixel_distance": 100.08,
+      "approx_distance_km": 103.88,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Celeduin",
+        "Tirthalion"
+      ],
+      "pixel_distance": 111.02,
+      "approx_distance_km": 115.24,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Beornanburgh",
+        "Fiorinde"
+      ],
+      "pixel_distance": 259.11,
+      "approx_distance_km": 268.95,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Corrinis",
+        "Fiorinde"
+      ],
+      "pixel_distance": 63.69,
+      "approx_distance_km": 66.11,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Cambyrg+Crossing",
+        "Harkfast+Prioresse"
+      ],
+      "pixel_distance": 116.35,
+      "approx_distance_km": 120.77,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Harkfast",
+        "Harkfast+Prioresse"
+      ],
+      "pixel_distance": 36.35,
+      "approx_distance_km": 37.73,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Harkfast+Prioresse",
+        "Prioresse"
+      ],
+      "pixel_distance": 211.44,
+      "approx_distance_km": 219.47,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Elrodstor",
+        "Prioresse"
+      ],
+      "pixel_distance": 41.48,
+      "approx_distance_km": 43.06,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Byrne",
+        "Prioresse"
+      ],
+      "pixel_distance": 238.41,
+      "approx_distance_km": 247.47,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Byrne",
+        "Byrne+Crossing"
+      ],
+      "pixel_distance": 302.63,
+      "approx_distance_km": 314.13,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Crossing+Deorstead",
+        "Irenhart"
+      ],
+      "pixel_distance": 139.83,
+      "approx_distance_km": 145.15,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Irenhart",
+        "Norwardstor"
+      ],
+      "pixel_distance": 167.55,
+      "approx_distance_km": 173.91,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Irenhart",
+        "Loch Gorm"
+      ],
+      "pixel_distance": 101.53,
+      "approx_distance_km": 105.39,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Bucht-Ikonium",
+        "Elrodstor"
+      ],
+      "pixel_distance": 170.58,
+      "approx_distance_km": 177.06,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Bucht-Ikonium",
+        "Ikonium"
+      ],
+      "pixel_distance": 57.72,
+      "approx_distance_km": 59.92,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Bucht-Ikonium",
+        "Estragel"
+      ],
+      "pixel_distance": 144.03,
+      "approx_distance_km": 149.5,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Estragel",
+        "Kynopytae"
+      ],
+      "pixel_distance": 50.64,
+      "approx_distance_km": 52.56,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Ikonium",
+        "Kynopytae"
+      ],
+      "pixel_distance": 150.03,
+      "approx_distance_km": 155.73,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Dvarnaut+Tanast",
+        "Norwardstor"
+      ],
+      "pixel_distance": 102.96,
+      "approx_distance_km": 106.87,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Dvarnaut+Tanast",
+        "Tanast"
+      ],
+      "pixel_distance": 66.19,
+      "approx_distance_km": 68.7,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Dvarnaur",
+        "Dvarnaut+Tanast"
+      ],
+      "pixel_distance": 221.0,
+      "approx_distance_km": 229.4,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Byrne",
+        "Scarpa"
+      ],
+      "pixel_distance": 177.29,
+      "approx_distance_km": 184.03,
+      "undirected": true
+    },
+    {
+      "nodes": [
+        "Byrne",
+        "Vanasfarne"
+      ],
+      "pixel_distance": 145.91,
+      "approx_distance_km": 151.45,
+      "undirected": true
+    }
+  ]
+}
