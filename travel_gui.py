@@ -65,8 +65,20 @@ def prepare_graph(data: Dict[str, Any]) -> Tuple[Dict[str, Dict[str, Any]], Dict
             for k, v in raw_edge.items()
             if k not in {"nodes", "source", "target"}
         }
-        distance = edge_attrs.get("approx_distance_km") or edge_attrs.get("distance_km") or 0.0
-        edge_attrs["approx_distance_km"] = float(distance)
+        # Respect both approx_distance_km and pixel_distance; default to 0 if missing.
+        distance = edge_attrs.get("approx_distance_km")
+        if distance is None:
+            distance = edge_attrs.get("distance_km")
+        if distance is None and "pixel_distance" in edge_attrs and edge_attrs.get("scale"):
+            distance = float(edge_attrs["pixel_distance"]) * float(edge_attrs["scale"])
+        edge_attrs["approx_distance_km"] = float(distance or 0.0)
+
+        # Allowed modes may be absent or a single string; normalize to list.
+        allowed = edge_attrs.get("allowed_modes")
+        if isinstance(allowed, str):
+            edge_attrs["allowed_modes"] = [allowed]
+        elif allowed is None:
+            edge_attrs["allowed_modes"] = []
 
         adjacency[a].append((b, edge_attrs.copy()))
         adjacency[b].append((a, edge_attrs.copy()))
@@ -83,6 +95,8 @@ def difficulty_for_edge(attrs: Dict[str, Any]) -> float:
     if "difficulty_modifier" in attrs:
         return float(attrs["difficulty_modifier"])
     route_type = attrs.get("route_type")
+    if not route_type and isinstance(attrs.get("route_types"), list) and attrs["route_types"]:
+        route_type = attrs["route_types"][0]
     return ROUTE_DIFFICULTY.get(route_type, 1.0)
 
 
@@ -398,7 +412,10 @@ class TravelApp(tk.Tk):
         if not self.session.active_leg and self.session.current_city:
             for neighbor, attrs in self.session.available_routes():
                 dist = attrs.get("approx_distance_km", 0.0)
-                label = f"to {neighbor} — {dist:.1f} km via {attrs.get('route_type', 'route')}"
+                rtype = attrs.get("route_type")
+                if not rtype and isinstance(attrs.get("route_types"), list) and attrs["route_types"]:
+                    rtype = ", ".join(attrs["route_types"])
+                label = f"to {neighbor} — {dist:.1f} km via {rtype or 'route'}"
                 self.routes_list.insert(tk.END, label)
                 self.route_selection.append(neighbor)
         else:
