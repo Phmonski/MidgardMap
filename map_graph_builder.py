@@ -47,6 +47,7 @@ class Node:
     node_id: str
     x: float
     y: float
+    attrs: Dict[str, Any]
 
 
 @dataclass
@@ -55,6 +56,7 @@ class Edge:
     b: str
     pixel_distance: float
     distance: float  # scaled (e.g., km)
+    attrs: Dict[str, Any]
 
 
 class GraphState:
@@ -63,8 +65,8 @@ class GraphState:
         self.edges: Dict[Tuple[str, str], Edge] = {}
         self.scale = scale  # distance units per pixel
 
-    def add_node(self, node_id: str, x: float, y: float) -> None:
-        self.nodes[node_id] = Node(node_id, x, y)
+    def add_node(self, node_id: str, x: float, y: float, attrs: Optional[Dict[str, Any]] = None) -> None:
+        self.nodes[node_id] = Node(node_id, x, y, attrs or {})
 
     def remove_node(self, node_id: str) -> None:
         if node_id in self.nodes:
@@ -73,32 +75,36 @@ class GraphState:
         for k in to_delete:
             del self.edges[k]
 
-    def upsert_edge(self, a: str, b: str) -> Edge:
+    def upsert_edge(self, a: str, b: str, attrs: Optional[Dict[str, Any]] = None) -> Edge:
         key = tuple(sorted((a, b)))
         node_a = self.nodes[a]
         node_b = self.nodes[b]
         pixel_d = math.hypot(node_a.x - node_b.x, node_a.y - node_b.y)
         dist = pixel_d * self.scale
-        edge = Edge(a=key[0], b=key[1], pixel_distance=pixel_d, distance=dist)
+        existing_attrs = self.edges.get(key).attrs if key in self.edges else {}
+        combined_attrs = dict(existing_attrs)
+        if attrs:
+            combined_attrs.update(attrs)
+        combined_attrs["approx_distance_km"] = round(dist, 2)
+        combined_attrs["pixel_distance"] = round(pixel_d, 2)
+        edge = Edge(a=key[0], b=key[1], pixel_distance=pixel_d, distance=dist, attrs=combined_attrs)
         self.edges[key] = edge
         return edge
 
     def recalc_edges(self) -> None:
         for k in list(self.edges.keys()):
             a, b = k
-            self.upsert_edge(a, b)
+            self.upsert_edge(a, b, self.edges[k].attrs)
 
     def to_json(self) -> Dict[str, Any]:
         nodes_data = [
-            {"id": n.node_id, "pos_px": [n.x, n.y]}
+            {"id": n.node_id, "pos_px": [n.x, n.y], **n.attrs}
             for n in self.nodes.values()
         ]
         edges_data = [
             {
                 "nodes": [e.a, e.b],
-                "pixel_distance": round(e.pixel_distance, 2),
-                "approx_distance_km": round(e.distance, 2),
-                "undirected": True,
+                **e.attrs,
             }
             for e in self.edges.values()
         ]
@@ -110,14 +116,16 @@ class GraphState:
         for node in data.get("nodes", []):
             nid = node["id"]
             pos = node.get("pos_px") or node.get("pos") or [0, 0]
-            gs.add_node(nid, float(pos[0]), float(pos[1]))
+            attrs = {k: v for k, v in node.items() if k not in {"id", "pos_px", "pos"}}
+            gs.add_node(nid, float(pos[0]), float(pos[1]), attrs)
         for edge in data.get("edges", []):
             if "nodes" not in edge or len(edge["nodes"]) != 2:
                 continue
             a, b = edge["nodes"]
-            gs.nodes.setdefault(a, Node(a, 0, 0))
-            gs.nodes.setdefault(b, Node(b, 0, 0))
-            gs.upsert_edge(a, b)
+            gs.nodes.setdefault(a, Node(a, 0, 0, {}))
+            gs.nodes.setdefault(b, Node(b, 0, 0, {}))
+            attrs = {k: v for k, v in edge.items() if k != "nodes"}
+            gs.upsert_edge(a, b, attrs)
         return gs
 
 

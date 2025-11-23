@@ -68,7 +68,8 @@
       "pos_px": [
         1305.0,
         674.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Byrne+Crossing",
@@ -110,7 +111,8 @@
       "pos_px": [
         700.0,
         960.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Crossing",
@@ -131,7 +133,8 @@
       "pos_px": [
         909.0,
         404.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Deorstead+Haelgarde",
@@ -150,9 +153,10 @@
     {
       "id": "Dvarnaut",
       "pos_px": [
-        352.0,
-        276.0
-      ]
+        0.0,
+        0.0
+      ],
+      "is_port": false
     },
     {
       "id": "Dvarnaut+Tanast",
@@ -173,21 +177,24 @@
       "pos_px": [
         1308.0,
         952.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Estragel",
       "pos_px": [
         1150.0,
         1125.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Fiorinde",
       "pos_px": [
         759.0,
         984.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Gimil-Dom",
@@ -208,7 +215,8 @@
       "pos_px": [
         1165.0,
         546.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Harkfast",
@@ -229,7 +237,8 @@
       "pos_px": [
         1308.0,
         1178.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Indaim\u00e9+Wulfstead",
@@ -257,7 +266,8 @@
       "pos_px": [
         1158.0,
         1175.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Loch Gorm",
@@ -299,7 +309,8 @@
       "pos_px": [
         1319.0,
         912.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Reginsvid",
@@ -313,7 +324,8 @@
       "pos_px": [
         1479.0,
         708.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Tanast",
@@ -348,7 +360,8 @@
       "pos_px": [
         587.0,
         865.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Tirthalion",
@@ -376,7 +389,8 @@
       "pos_px": [
         1185.0,
         591.0
-      ]
+      ],
+      "is_port": true
     },
     {
       "id": "Wald von Escavalon",
@@ -410,7 +424,14 @@
       ],
       "pixel_distance": 49.52,
       "approx_distance_km": 49.52,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "mountain_pass"
+      ],
+      "route_type": "mountain_pass",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -419,7 +440,15 @@
       ],
       "pixel_distance": 61.72,
       "approx_distance_km": 61.72,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -428,7 +457,15 @@
       ],
       "pixel_distance": 71.2,
       "approx_distance_km": 71.2,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -437,7 +474,15 @@
       ],
       "pixel_distance": 99.73,
       "approx_distance_km": 99.73,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -446,7 +491,15 @@
       ],
       "pixel_distance": 116.06,
       "approx_distance_km": 116.06,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -455,7 +508,15 @@
       ],
       "pixel_distance": 134.85,
       "approx_distance_km": 134.85,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -464,7 +525,14 @@
       ],
       "pixel_distance": 68.01,
       "approx_distance_km": 68.01,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "mountain_pass"
+      ],
+      "route_type": "mountain_pass",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -473,7 +541,14 @@
       ],
       "pixel_distance": 68.35,
       "approx_distance_km": 68.35,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "mountain_pass"
+      ],
+      "route_type": "mountain_pass",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -482,7 +557,14 @@
       ],
       "pixel_distance": 77.2,
       "approx_distance_km": 77.2,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "mountain_pass"
+      ],
+      "route_type": "mountain_pass",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -491,7 +573,14 @@
       ],
       "pixel_distance": 86.15,
       "approx_distance_km": 86.15,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "mountain_pass"
+      ],
+      "route_type": "mountain_pass",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -500,7 +589,15 @@
       ],
       "pixel_distance": 72.0,
       "approx_distance_km": 72.0,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -509,7 +606,15 @@
       ],
       "pixel_distance": 77.49,
       "approx_distance_km": 77.49,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -518,7 +623,15 @@
       ],
       "pixel_distance": 267.71,
       "approx_distance_km": 267.71,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -527,7 +640,15 @@
       ],
       "pixel_distance": 79.2,
       "approx_distance_km": 79.2,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -536,7 +657,15 @@
       ],
       "pixel_distance": 120.02,
       "approx_distance_km": 120.02,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -545,7 +674,15 @@
       ],
       "pixel_distance": 85.42,
       "approx_distance_km": 85.42,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -554,7 +691,15 @@
       ],
       "pixel_distance": 142.13,
       "approx_distance_km": 142.13,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -563,7 +708,15 @@
       ],
       "pixel_distance": 148.95,
       "approx_distance_km": 148.95,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -572,7 +725,15 @@
       ],
       "pixel_distance": 160.59,
       "approx_distance_km": 160.59,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -581,7 +742,15 @@
       ],
       "pixel_distance": 147.63,
       "approx_distance_km": 147.63,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -590,7 +759,15 @@
       ],
       "pixel_distance": 171.48,
       "approx_distance_km": 171.48,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -599,7 +776,15 @@
       ],
       "pixel_distance": 305.2,
       "approx_distance_km": 305.2,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -608,7 +793,15 @@
       ],
       "pixel_distance": 144.55,
       "approx_distance_km": 144.55,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -617,7 +810,15 @@
       ],
       "pixel_distance": 138.52,
       "approx_distance_km": 138.52,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -626,7 +827,14 @@
       ],
       "pixel_distance": 147.63,
       "approx_distance_km": 147.63,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "trail"
+      ],
+      "route_type": "trail",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -635,7 +843,15 @@
       ],
       "pixel_distance": 158.38,
       "approx_distance_km": 158.38,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -644,7 +860,15 @@
       ],
       "pixel_distance": 103.45,
       "approx_distance_km": 103.45,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -653,7 +877,15 @@
       ],
       "pixel_distance": 60.07,
       "approx_distance_km": 60.07,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -662,7 +894,15 @@
       ],
       "pixel_distance": 181.6,
       "approx_distance_km": 181.6,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -671,7 +911,15 @@
       ],
       "pixel_distance": 90.14,
       "approx_distance_km": 90.14,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -680,7 +928,15 @@
       ],
       "pixel_distance": 49.24,
       "approx_distance_km": 49.24,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "sea"
+      ],
+      "route_type": "sea",
+      "allowed_modes": [
+        "boat",
+        "ship"
+      ]
     },
     {
       "nodes": [
@@ -689,7 +945,15 @@
       ],
       "pixel_distance": 118.6,
       "approx_distance_km": 118.6,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -698,7 +962,15 @@
       ],
       "pixel_distance": 141.4,
       "approx_distance_km": 141.4,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -707,7 +979,15 @@
       ],
       "pixel_distance": 71.4,
       "approx_distance_km": 71.4,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -716,7 +996,15 @@
       ],
       "pixel_distance": 148.49,
       "approx_distance_km": 148.49,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -725,7 +1013,15 @@
       ],
       "pixel_distance": 119.21,
       "approx_distance_km": 119.21,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -734,7 +1030,15 @@
       ],
       "pixel_distance": 33.96,
       "approx_distance_km": 33.96,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -743,7 +1047,15 @@
       ],
       "pixel_distance": 42.06,
       "approx_distance_km": 42.06,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -752,7 +1064,15 @@
       ],
       "pixel_distance": 79.63,
       "approx_distance_km": 79.63,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -761,7 +1081,15 @@
       ],
       "pixel_distance": 161.34,
       "approx_distance_km": 161.34,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -770,7 +1098,14 @@
       ],
       "pixel_distance": 75.66,
       "approx_distance_km": 75.66,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "trail"
+      ],
+      "route_type": "trail",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -779,7 +1114,14 @@
       ],
       "pixel_distance": 61.81,
       "approx_distance_km": 61.81,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "trail"
+      ],
+      "route_type": "trail",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -788,7 +1130,14 @@
       ],
       "pixel_distance": 100.08,
       "approx_distance_km": 100.08,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "trail"
+      ],
+      "route_type": "trail",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -797,7 +1146,14 @@
       ],
       "pixel_distance": 111.02,
       "approx_distance_km": 111.02,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "trail"
+      ],
+      "route_type": "trail",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -806,7 +1162,15 @@
       ],
       "pixel_distance": 259.11,
       "approx_distance_km": 259.11,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -815,7 +1179,15 @@
       ],
       "pixel_distance": 63.69,
       "approx_distance_km": 63.69,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "shore"
+      ],
+      "route_type": "shore",
+      "allowed_modes": [
+        "boat",
+        "ship"
+      ]
     },
     {
       "nodes": [
@@ -824,7 +1196,15 @@
       ],
       "pixel_distance": 116.35,
       "approx_distance_km": 116.35,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -833,7 +1213,15 @@
       ],
       "pixel_distance": 36.35,
       "approx_distance_km": 36.35,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -842,7 +1230,15 @@
       ],
       "pixel_distance": 211.44,
       "approx_distance_km": 211.44,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -851,7 +1247,18 @@
       ],
       "pixel_distance": 41.48,
       "approx_distance_km": 41.48,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road",
+        "shore"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse",
+        "boat",
+        "ship"
+      ]
     },
     {
       "nodes": [
@@ -860,7 +1267,18 @@
       ],
       "pixel_distance": 238.41,
       "approx_distance_km": 238.41,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road",
+        "shore"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse",
+        "boat",
+        "ship"
+      ]
     },
     {
       "nodes": [
@@ -869,7 +1287,15 @@
       ],
       "pixel_distance": 302.63,
       "approx_distance_km": 302.63,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse"
+      ]
     },
     {
       "nodes": [
@@ -878,7 +1304,14 @@
       ],
       "pixel_distance": 139.83,
       "approx_distance_km": 139.83,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "trail"
+      ],
+      "route_type": "trail",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -887,7 +1320,14 @@
       ],
       "pixel_distance": 167.55,
       "approx_distance_km": 167.55,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "trail"
+      ],
+      "route_type": "trail",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -896,7 +1336,14 @@
       ],
       "pixel_distance": 101.53,
       "approx_distance_km": 101.53,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "trail"
+      ],
+      "route_type": "trail",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -905,7 +1352,15 @@
       ],
       "pixel_distance": 170.58,
       "approx_distance_km": 170.58,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "shore"
+      ],
+      "route_type": "shore",
+      "allowed_modes": [
+        "boat",
+        "ship"
+      ]
     },
     {
       "nodes": [
@@ -914,7 +1369,15 @@
       ],
       "pixel_distance": 57.72,
       "approx_distance_km": 57.72,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "shore"
+      ],
+      "route_type": "shore",
+      "allowed_modes": [
+        "boat",
+        "ship"
+      ]
     },
     {
       "nodes": [
@@ -923,7 +1386,15 @@
       ],
       "pixel_distance": 144.03,
       "approx_distance_km": 144.03,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "shore"
+      ],
+      "route_type": "shore",
+      "allowed_modes": [
+        "boat",
+        "ship"
+      ]
     },
     {
       "nodes": [
@@ -932,7 +1403,18 @@
       ],
       "pixel_distance": 50.64,
       "approx_distance_km": 50.64,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road",
+        "shore"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse",
+        "boat",
+        "ship"
+      ]
     },
     {
       "nodes": [
@@ -941,7 +1423,18 @@
       ],
       "pixel_distance": 150.03,
       "approx_distance_km": 150.03,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road",
+        "shore"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse",
+        "boat",
+        "ship"
+      ]
     },
     {
       "nodes": [
@@ -950,7 +1443,14 @@
       ],
       "pixel_distance": 102.96,
       "approx_distance_km": 102.96,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -959,7 +1459,14 @@
       ],
       "pixel_distance": 66.19,
       "approx_distance_km": 66.19,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "mountain_pass"
+      ],
+      "route_type": "mountain_pass",
+      "allowed_modes": [
+        "foot"
+      ]
     },
     {
       "nodes": [
@@ -968,7 +1475,15 @@
       ],
       "pixel_distance": 177.29,
       "approx_distance_km": 177.29,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "sea"
+      ],
+      "route_type": "sea",
+      "allowed_modes": [
+        "boat",
+        "ship"
+      ]
     },
     {
       "nodes": [
@@ -977,16 +1492,34 @@
       ],
       "pixel_distance": 145.91,
       "approx_distance_km": 145.91,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "road",
+        "shore"
+      ],
+      "route_type": "road",
+      "allowed_modes": [
+        "foot",
+        "horse",
+        "boat",
+        "ship"
+      ]
     },
     {
       "nodes": [
         "Dvarnaut",
         "Dvarnaut+Tanast"
       ],
-      "pixel_distance": 221.0,
-      "approx_distance_km": 221.0,
-      "undirected": true
+      "undirected": true,
+      "route_types": [
+        "mountain_pass"
+      ],
+      "route_type": "mountain_pass",
+      "approx_distance_km": 636.01,
+      "allowed_modes": [
+        "foot"
+      ],
+      "pixel_distance": 636.01
     }
   ]
 }
